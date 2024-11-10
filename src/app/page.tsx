@@ -4,7 +4,6 @@ const TestPage = () => {
   return (
     <main className='max-w-screen-xl space-y-6 my-16 mx-auto'>
       <AdBanner />
-
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugit
         culpa voluptatibus perferendis suscipit ipsum accusamus repellendus
@@ -22,7 +21,6 @@ const TestPage = () => {
       <div className='w-full h-32 text-gray-700 text-5xl font-bold bg-gray-400 grid place-items-center'>
         255 x 128
       </div>
-      {/* <AdBanner /> */}
       <div className='flex gap-8'>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi
@@ -47,7 +45,6 @@ const TestPage = () => {
           Error nulla possimus sapiente quas asperiores enim accusamus quaerat
           eum!
         </div>
-        {/* <AdBanner /> */}
       </div>
     </main>
   )

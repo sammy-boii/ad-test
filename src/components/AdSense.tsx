@@ -12,7 +12,7 @@ const AdSense = () => {
       onLoad={(s) => {
         console.log('LOADED ADSENSE', s)
       }}
-      src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4678300682198759'
+      src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2749560806237727'
       crossOrigin='anonymous'
       strategy='afterInteractive'
     />
