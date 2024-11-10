@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
-import AdSense from '@/components/AdSense'
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -27,7 +26,12 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        <AdSense />
+        <script
+          async
+          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2749560806237727'
+          crossOrigin='anonymous'
+        ></script>
+        {/* <AdSense /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
